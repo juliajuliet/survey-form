@@ -1,0 +1,98 @@
+body {
+  background: url(https://maksimdovzhenko.ru/wp-content/uploads/2015/02/Anketirovanie.jpg) 50% 0% no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  margin: 0 auto;
+  font-family: 'Ariel', sans-serif;
+  font-size: 16px;
+  line-height: 30px;
+  position: relative;
+}
+
+main {
+  background-color: white;
+  opacity: 0.8;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+  text-transform: uppercase;
+  padding-top: 150px;
+  opacity: 1px;
+}
+
+#description {
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+  margin-top: 50px;
+  opacity: 1px;
+}
+
+#survey-form {
+  margin: 0 auto;
+  width: 600px;
+  font-size: 25px;
+  color: black;
+  background-color: grey;
+  padding: 50px 50px;
+}
+
+label {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+input {
+  margin: 0 auto;
+}
+
+#name, #email, #dropdown, #number {
+
+  margin-top: 10px;
+  margin-bottom: 30px;
+  height: 30px;
+  border-radius:10px;
+  width: 100%;
+}
+
+#choice, #check {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.a{
+  font-size: 18px;
+}
+
+input [type="checkbox"], input[type="radio"] {
+  margin-top: 10px;
+}
+
+#text {
+  height: 150px;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  margin: 0 auto;
+}
+
+#submit {
+  position: relative;
+  top: 50%;
+  left: 25%;
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  color: white;
+  background-color: black;
+  font-size: 25px;
+  opacity: 1;
+  border-radius: 10px;
+}
